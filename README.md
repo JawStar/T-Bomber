@@ -29,7 +29,7 @@ $ git clone https://github.com/JawStar/Toxic-Bomber
 
 $ cd Toxic-Bomber
 
-$ python Toxic-Bomber.py
+$ python Tbomb.py
 
 
 # Installation for kali linux
@@ -40,7 +40,7 @@ cd Toxic-Bomber
 
 pip install requests
 
-python Toxic-Bomber.py
+python Tbomb.py
 
 
 
