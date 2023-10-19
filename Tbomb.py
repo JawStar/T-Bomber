@@ -76,13 +76,13 @@ def update():
         time.sleep(0.5)
         psb("    \033[92m[\033[37m!\033[92m] \033[37mUpdating Tool: ", end="")
         
-        os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/JawStar/ToxicBomber > /dev/null 2>&1")
+        os.system("cd .. && rm -rf Toxic-Bomber && git clone https://github.com/JawStar/Toxic-Bomber > /dev/null 2>&1")
         
         print("\033[37mDone")
         psb("\n    \033[92m[\033[37m*\033[92m] \033[37mStarting Tool...")
         time.sleep(0.8)
         
-        os.system("cd .. && cd ToxicBomber && python Tbomb.py")
+        os.system("cd .. && cd Toxic-Bomber && python Tbomb.py")
     
     else:
         if (authorMsg != newMsg) and (newMsg != "blank"):
@@ -208,6 +208,10 @@ def main():
 
 # Start Ruuning Tool
 if (__name__ == "__main__"):
-    checkPy()run()
+    checkPy()
+     from more.data import *
+    logo()
+    update()
+    main()
 
 
