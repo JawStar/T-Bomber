@@ -74,13 +74,6 @@ Python, C , CLI .
 
 https://instagram.com/_cyber_jawstar9999
 
-## Related
-
-Here are some related projects
-
-[Amazing Toolkit for beginners.......]
-(https://https://github.com/kdo2064/Tool-Hub)
-
 
 ## Note
 
